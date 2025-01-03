@@ -1,5 +1,5 @@
 import { db } from "@/utils/db";
-import Link from "next/link";
+
 export default async function SingleTeam({ params }) {
   const { id } = params;
 
@@ -29,7 +29,7 @@ export default async function SingleTeam({ params }) {
           <p>History: {team.history}</p>
           <p>Arena: {team.arena_name}</p>
           <p>Capacity: {team.capacity}</p>
-          <Link href="">Rosters</Link>
+          
         </div>
       ) : (
         <p>Team not found</p>
