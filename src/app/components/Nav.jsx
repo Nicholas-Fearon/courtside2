@@ -8,10 +8,7 @@ export default function Nav() {
           <Link href="/">🏀 Courtside</Link>
         </h1>
         <div className="flex space-x-6">
-          <Link
-            href="/"
-            className="hover:text-yellow-400 transition-colors"
-          >
+          <Link href="/" className="hover:text-yellow-400 transition-colors">
             Home
           </Link>
           <Link

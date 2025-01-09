@@ -22,14 +22,14 @@ export default async function Roster({ params }) {
                 className="p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
                 <h3 className="text-lg font-semibold">{player.name}</h3>
-                <p className="text-gray-500">
-                  Position: {player.position}
-                </p>
+                <p className="text-gray-500">Position: {player.position}</p>
                 <p className="text-gray-500">Height: {player.height}</p>
                 <p className="text-gray-500">
                   Date of Birth: {new Date(player.dob).toLocaleDateString()}
                 </p>
-                <p className="text-gray-500">Birthplace: {player.birth_place}</p>
+                <p className="text-gray-500">
+                  Birthplace: {player.birth_place}
+                </p>
               </div>
             ))}
           </div>
